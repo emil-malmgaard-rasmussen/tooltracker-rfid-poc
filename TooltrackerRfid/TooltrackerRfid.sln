@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TooltrackerRfid", "TooltrackerRfid\TooltrackerRfid.csproj", "{226CB1BC-2434-4F83-AE83-42FF78A63173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TooltrackerRfid.Database", "TooltrackerRfid.Database\TooltrackerRfid.Database.csproj", "{B05C1D06-B914-437D-8BCD-66E842B547BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TooltrackerRfid.Bll", "TooltrackerRfid.Bll\TooltrackerRfid.Bll.csproj", "{F2DB0D19-4F22-4B30-BEA0-E64BB3DC663A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{226CB1BC-2434-4F83-AE83-42FF78A63173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226CB1BC-2434-4F83-AE83-42FF78A63173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226CB1BC-2434-4F83-AE83-42FF78A63173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226CB1BC-2434-4F83-AE83-42FF78A63173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B05C1D06-B914-437D-8BCD-66E842B547BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05C1D06-B914-437D-8BCD-66E842B547BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05C1D06-B914-437D-8BCD-66E842B547BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05C1D06-B914-437D-8BCD-66E842B547BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2DB0D19-4F22-4B30-BEA0-E64BB3DC663A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DB0D19-4F22-4B30-BEA0-E64BB3DC663A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DB0D19-4F22-4B30-BEA0-E64BB3DC663A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DB0D19-4F22-4B30-BEA0-E64BB3DC663A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

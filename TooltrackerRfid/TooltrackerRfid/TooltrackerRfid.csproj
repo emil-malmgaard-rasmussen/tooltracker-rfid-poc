@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Hexio.EconomicClient" Version="1.0.3" />
+        <PackageReference Include="Mapster" Version="7.0.1" />
+        <PackageReference Include="Microsoft.AspNetCore.ApiAuthorization.IdentityServer" Version="3.1.9" />
+        <PackageReference Include="Microsoft.Identity.Web" Version="1.1.0" />
+        <PackageReference Include="Microsoft.Identity.Web.UI" Version="1.1.0" />
+        <PackageReference Include="Smoerfugl.AspNetCore" Version="0.1.1193" />
+        <PackageReference Include="Smoerfugl.Database.Postgres" Version="0.1.1152" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\TooltrackerRfid.Bll\TooltrackerRfid.Bll.csproj" />
+        <ProjectReference Include="..\TooltrackerRfid.Database\TooltrackerRfid.Database.csproj" />
+    </ItemGroup>
+
+</Project>
